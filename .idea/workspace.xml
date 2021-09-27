@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee89e2ab-05b6-4ce4-8523-8c2d67a144b5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hood/templates/neighborhood/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/hood/templates/neighborhood/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hood/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hood/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
