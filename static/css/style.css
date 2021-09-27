@@ -20,7 +20,7 @@ body {
 }
 
 a {
-  color: #6751B2;
+  color: blue;
   text-decoration: none;
 }
 
@@ -67,7 +67,7 @@ main header #headerContent {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: rgba(69, 37, 172, 0.5);
+  background-color: blue;
   height: 100%;
   width: 100%;
   padding: 2rem;
@@ -90,18 +90,18 @@ main header #headerContent #headerCTA {
 
 main header #headerContent #headerCTA #signUpButton {
   border-radius: 5px;
-  background-color: #E75E88;
-  border: 1px solid #E75E88;
+  background-color: yellow;
+  border: 1px solid yellow;
 }
 
 main header #headerContent #headerCTA #signInButton {
   border-radius: 5px;
-  color: #E75E88;
-  border: 1px solid #E75E88;
+  color: yellow;
+  border: 1px solid yellow;
 }
 
 main header #headerContent #headerCTA #signInButton:hover {
-  background-color: #E75E88;
+  background-color: yellow;
   color: white;
 }
 
@@ -119,7 +119,7 @@ main .descriptions #updates .descHeading,
 main .descriptions #businesses .descHeading,
 main .descriptions #info .descHeading {
   font-weight: 700;
-  color: #6751B2;
+  color: blue;
   text-transform: uppercase;
 }
 
@@ -149,7 +149,7 @@ footer {
   position: fixed;
   width: 100%;
   height: 3vh;
-  background-color: #6751B2;
+  background-color: blue;
   bottom: 0;
 }
 
@@ -173,7 +173,7 @@ footer {
 
 .nav_wrapper .container .nav-section-left .brand_logo {
   font-family: 'Rowdies', serif;
-  color: #6751B2;
+  color: blue;
   font-size: 3rem;
   line-height: 1;
   cursor: pointer;
@@ -196,7 +196,7 @@ footer {
 
 #feed #neighborhoodName,
 #bs #neighborhoodName {
-  background-color: #6751B2;
+  background-color: blue;
   color: #FFFFFF;
   font-size: 1.2 rem;
   font-weight: 700;
@@ -207,7 +207,7 @@ footer {
 #bs #newPostBtn {
   background-color: #FFFFFF;
   border: none;
-  color: #6751B2;
+  color: blue;
   text-transform: uppercase;
   border-radius: 5px;
   padding: 10px;
@@ -221,8 +221,8 @@ footer {
 
 #feed #newPostBtn i,
 #bs #newPostBtn i {
-  color: #6751B2;
-  background-color: #6751b226;
+  color: blue;
+  background-color: blue26;
   border-radius: 2px;
   padding: 5px;
 }
@@ -288,7 +288,7 @@ footer {
 }
 
 #businesses .business-text i {
-  color: #6751B2;
+  color: blue;
 }
 
 #neighborhood {
@@ -296,7 +296,7 @@ footer {
 }
 
 #neighborhood .card .neighborhoodHeader {
-  background-color: #6751B2;
+  background-color: blue;
   margin-top: 0;
 }
 
@@ -340,14 +340,14 @@ footer {
 
 #neighborhood .card #neighbors i {
   font-size: 1rem;
-  color: #6751B2;
+  color: blue;
   border-radius: 5px;
   max-width: 20px;
   opacity: .7;
 }
 
 #profile .profile-header {
-  background-color: #6751B2;
+  background-color: blue;
   margin-top: 0;
 }
 
@@ -371,9 +371,9 @@ footer {
 }
 
 #profile .profile-body #profileButton {
-  background-color: #6751B2;
+  background-color: blue;
   text-transform: uppercase;
-  border: 1px solid #6751B2;
+  border: 1px solid blue;
   border-radius: 5px;
 }
 
@@ -401,7 +401,7 @@ footer {
 }
 
 #profile .profile-body .details li b {
-  color: #6751B2;
+  color: blue;
   text-align: right;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -421,13 +421,13 @@ footer {
 }
 
 .auth button {
-  background-color: #6751B2;
-  border: 1px solid #6751B2;
+  background-color: blue;
+  border: 1px solid blue;
   border-radius: 5px;
 }
 
 .auth button:hover {
-  background-color: #6751B2;
+  background-color: blue;
   -webkit-box-shadow: -3px 3px 10px -8px #5a5a5a;
           box-shadow: -3px 3px 10px -8px #5a5a5a;
   outline: none;
@@ -435,7 +435,7 @@ footer {
 
 #changeNeighborhood {
   background-color: transparent;
-  color: #E75E88;
+  color: blue;
   height: 2rem;
   font-weight: 700;
   padding: 0 0 1rem 0;
@@ -446,6 +446,6 @@ footer {
 }
 
 #changeNeighborhood:hover {
-  border-bottom: 3px solid #E75E88;
+  border-bottom: 3px solid blue;
 }
 /*# sourceMappingURL=style.css.map */
