@@ -1,0 +1,446 @@
+@import url(https://fonts.googleapis.com/css?family=Rowdies:300,regular,700);
+// Colors
+$mainColor: #6751B2;
+$bgMainColor: #6751b226;
+$accentColor: #E75E88;
+$grey: rgb(90, 90, 90);
+$black: #202020;
+$offWhite: #FAFAFA;
+$white: #FFFFFF;
+$alert: #FCD8A2;
+$bgAlert: #FCD8A226;
+$success: #A2FCAB;
+$bgSuccess: #A2FCAB26;
+$danger: #FCA2A2;
+$bgDanger: #FCA2A226;
+
+// Padding
+$padding: 2rem;
+
+// Rounding
+$borderRadius: 5px;
+
+// Box shadow
+$boxShadow: -3px 3px 10px -8px $grey;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans',
+        sans-serif;
+    transition: 300ms;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    background-color: $offWhite;
+}
+
+a {
+    color: $mainColor;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+main {
+    padding-top: 60px !important;
+}
+
+.card {
+    border-radius: $borderRadius;
+    box-shadow: $boxShadow;
+    overflow: hidden;
+    border: none;
+}
+
+// Index
+main {
+    width: 100%;
+
+    header {
+        background-image: url('../img/bg.jpg');
+        background-blend-mode: darken;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        height: 55vh;
+        width: 100%;
+        color: $white;
+
+        #headerContent {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: rgba(69, 37, 172, 0.5);
+            height: 100%;
+            width: 100%;
+            padding: $padding;
+
+            .container>* {
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+            }
+
+            #headerHeading {
+                color: $offWhite;
+                font-family: 'Rowdies', serif;
+                font-size: 5rem;
+            }
+
+            #headerCTA {
+                text-transform: uppercase;
+
+                #signUpButton {
+                    border-radius: $borderRadius;
+                    background-color: $accentColor;
+                    border: 1px solid $accentColor;
+                }
+
+                #signInButton {
+                    border-radius: $borderRadius;
+                    color: $accentColor;
+                    border: 1px solid $accentColor;
+
+                    &:hover {
+                        background-color: $accentColor;
+                        color: white;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .descriptions {
+        text-align: center;
+
+        #updates,
+        #businesses,
+        #info {
+            padding: $padding;
+
+            .descHeading {
+                font-weight: 700;
+                color: $mainColor;
+                text-transform: uppercase;
+            }
+
+            .descIcon {
+                font-size: 4rem;
+
+                i {
+                    color: $grey;
+                    opacity: .5;
+                }
+            }
+
+            .descText {
+                font-size: .8rem;
+                color: $grey;
+                text-align: justify;
+                text-justify: auto;
+            }
+        }
+    }
+}
+
+
+footer {
+    position: fixed;
+    width: 100%;
+    height: 3vh;
+    background-color: $mainColor;
+    bottom: 0;
+}
+
+.nav_wrapper {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    background-color: $offWhite;
+    height: 60px;
+    box-shadow: 0 0 10px -5px $grey;
+
+    .container {
+        height: 100%;
+
+        .nav-section-left {
+            height: 100%;
+
+            .brand_logo {
+                font-family: 'Rowdies', serif;
+                color: $mainColor;
+                font-size: 3rem;
+                line-height: 1;
+                cursor: pointer;
+            }
+        }
+
+        .nav-section-right {
+            height: 100%;
+
+            ul {
+                margin-top: 1rem;
+                font-size: .8rem;
+            }
+
+            .dropdown-menu {
+                text-transform: capitalize;
+                transition: none;
+            }
+        }
+    }
+}
+
+#feed,
+#bs {
+    #neighborhoodName {
+        background-color: $mainColor;
+        color: $white;
+        font-size: 1.2 rem;
+        font-weight: 700;
+        z-index: -10;
+    }
+
+    #newPostBtn {
+        background-color: $white;
+        border: none;
+        color: $mainColor;
+        text-transform: uppercase;
+        border-radius: $borderRadius;
+        padding: 10px;
+
+        &:hover {
+            box-shadow: $boxShadow;
+        }
+
+        i {
+            color: $mainColor;
+            background-color: $bgMainColor;
+            border-radius: 2px;
+            padding: 5px;
+        }
+
+    }
+
+    #posts {
+        .post {
+            .post-title {
+                color: $black;
+
+                i {
+                    color: $alert;
+                    background-color: $bgAlert;
+                    padding: 5px;
+                    border-radius: 2px;
+                }
+            }
+
+            .post-content {
+                font-size: .85rem;
+                color: $grey;
+            }
+
+            .post-footer {
+                font-size: .75rem;
+                font-style: italic;
+                font-weight: 600;
+
+                .post-user {
+                    .profile-pic {
+                        height: 25px;
+                        width: 25px;
+                        overflow: hidden;
+                        border-radius: $borderRadius;
+
+                        img {
+                            width: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#businesses {
+    &>div{
+        max-height: 150px;
+    }
+    .business-image {
+        width: 20%;
+
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .business-text {
+        color: $grey;
+        font-size: .85rem;
+
+        i {
+            color: $mainColor;
+        }
+    }
+}
+
+#neighborhood {
+    margin-bottom: 5vh;
+    .card {
+        .neighborhoodHeader {
+            background-color: $mainColor;
+            margin-top: 0;
+            p {
+                color: white;
+                font-weight: 600;
+                font-size: 1.2rem;
+                line-height: 1;
+                margin-top: 10px;
+            }
+        }
+
+        #neighborhoodCover {
+            height: 350px;
+            overflow: hidden;
+
+            img {
+                object-fit: contain;
+                object-position: bottom !important;
+            }
+        }
+
+        #neighborhoodText{
+            font-size: .85rem;
+            color: $grey;
+        }
+
+        #neighborhoodContacts {
+            color: $grey;
+            line-height: 1;
+            strong{
+                color: $black;
+            }
+            i{
+                color: $danger !important;
+            }
+        }
+        #neighbors{
+            i{
+                font-size: 1rem;
+                color: $mainColor;
+                border-radius: $borderRadius;
+                max-width: 20px;
+                opacity: .7;
+            }
+        }
+    }
+}
+
+#profile{
+    .profile-header{
+        background-color: $mainColor;
+        margin-top: 0;
+
+        p {
+            color: white;
+            font-weight: 600;
+            font-size: 1.2rem;
+            line-height: 1;
+            margin-top: 10px;
+        }
+    }
+    .profile-body{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        #profileButton {
+            background-color: $mainColor;
+            text-transform: uppercase;
+            border: 1px solid $mainColor;
+            border-radius: $borderRadius;
+        }
+        .profile-pic{
+            width: 200px;
+            height: 200px;
+            max-width: 300px;
+            overflow: hidden;
+            border-radius: $borderRadius;
+            // @media screen and (min-width: 768px) {
+            //     &{
+            //         margin-left: 10%;
+            //     }
+            // }
+            img{
+                width: 100%;
+                object-fit: cover;
+            }
+
+        }
+        .details {
+            width: 100%;
+            li{
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+
+                b{
+                    color: $mainColor;
+                    text-align: right;
+                    display: inline-flex;
+                    width: 100%;
+                    position: relative;
+                    padding-right: 10px;
+                }
+            }
+
+        }
+    }
+}
+
+.auth {
+    input{
+    border: 1px solid $grey;
+    border-radius:  $borderRadius;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: .5rem;
+}
+button{
+    background-color: $mainColor;
+    border: 1px solid $mainColor;
+    border-radius: $borderRadius;
+    &:hover{
+        background-color: $mainColor;
+        box-shadow: $boxShadow;
+        outline: none;
+    }
+}
+}
+
+#changeNeighborhood{
+    background-color: transparent;
+    color: $accentColor;
+    height: 2rem;
+    font-weight: 700;
+    padding: 0 0 1rem 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    border-radius: 0;
+    &:hover{
+        border-bottom: 3px solid $accentColor;
+    }
+}
