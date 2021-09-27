@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Rowdies:300,regular,700);
 // Colors
-$mainColor: #6751B2;
+blue: #6751B2;
 $bgMainColor: #6751b226;
-$accentColor: #E75E88;
+blue: #E75E88;
 $grey: rgb(90, 90, 90);
 $black: #202020;
 $offWhite: #FAFAFA;
@@ -43,7 +43,7 @@ body {
 }
 
 a {
-    color: $mainColor;
+    color: blue;
     text-decoration: none;
 }
 
@@ -102,17 +102,17 @@ main {
 
                 #signUpButton {
                     border-radius: $borderRadius;
-                    background-color: $accentColor;
-                    border: 1px solid $accentColor;
+                    background-color: blue;
+                    border: 1px solid blue;
                 }
 
                 #signInButton {
                     border-radius: $borderRadius;
-                    color: $accentColor;
-                    border: 1px solid $accentColor;
+                    color: blue;
+                    border: 1px solid blue;
 
                     &:hover {
-                        background-color: $accentColor;
+                        background-color: blue;
                         color: white;
                     }
                 }
@@ -131,7 +131,7 @@ main {
 
             .descHeading {
                 font-weight: 700;
-                color: $mainColor;
+                color: blue;
                 text-transform: uppercase;
             }
 
@@ -159,7 +159,7 @@ footer {
     position: fixed;
     width: 100%;
     height: 3vh;
-    background-color: $mainColor;
+    background-color: blue;
     bottom: 0;
 }
 
@@ -179,7 +179,7 @@ footer {
 
             .brand_logo {
                 font-family: 'Rowdies', serif;
-                color: $mainColor;
+                color: blue;
                 font-size: 3rem;
                 line-height: 1;
                 cursor: pointer;
@@ -205,7 +205,7 @@ footer {
 #feed,
 #bs {
     #neighborhoodName {
-        background-color: $mainColor;
+        background-color: blue;
         color: $white;
         font-size: 1.2 rem;
         font-weight: 700;
@@ -215,7 +215,7 @@ footer {
     #newPostBtn {
         background-color: $white;
         border: none;
-        color: $mainColor;
+        color: blue;
         text-transform: uppercase;
         border-radius: $borderRadius;
         padding: 10px;
@@ -225,7 +225,7 @@ footer {
         }
 
         i {
-            color: $mainColor;
+            color: blue;
             background-color: $bgMainColor;
             border-radius: 2px;
             padding: 5px;
@@ -292,7 +292,7 @@ footer {
         font-size: .85rem;
 
         i {
-            color: $mainColor;
+            color: blue;
         }
     }
 }
@@ -301,7 +301,7 @@ footer {
     margin-bottom: 5vh;
     .card {
         .neighborhoodHeader {
-            background-color: $mainColor;
+            background-color: blue;
             margin-top: 0;
             p {
                 color: white;
@@ -340,7 +340,7 @@ footer {
         #neighbors{
             i{
                 font-size: 1rem;
-                color: $mainColor;
+                color: blue;
                 border-radius: $borderRadius;
                 max-width: 20px;
                 opacity: .7;
@@ -351,7 +351,7 @@ footer {
 
 #profile{
     .profile-header{
-        background-color: $mainColor;
+        background-color: blue;
         margin-top: 0;
 
         p {
@@ -367,9 +367,9 @@ footer {
         flex-direction: row;
         width: 100%;
         #profileButton {
-            background-color: $mainColor;
+            background-color: blue;
             text-transform: uppercase;
-            border: 1px solid $mainColor;
+            border: 1px solid blue;
             border-radius: $borderRadius;
         }
         .profile-pic{
@@ -396,7 +396,7 @@ footer {
                 margin-bottom: 1rem;
 
                 b{
-                    color: $mainColor;
+                    color: blue;
                     text-align: right;
                     display: inline-flex;
                     width: 100%;
@@ -419,11 +419,11 @@ footer {
     padding: .5rem;
 }
 button{
-    background-color: $mainColor;
-    border: 1px solid $mainColor;
+    background-color: blue;
+    border: 1px solid blue;
     border-radius: $borderRadius;
     &:hover{
-        background-color: $mainColor;
+        background-color: blue;
         box-shadow: $boxShadow;
         outline: none;
     }
@@ -432,7 +432,7 @@ button{
 
 #changeNeighborhood{
     background-color: transparent;
-    color: $accentColor;
+    color: blue;
     height: 2rem;
     font-weight: 700;
     padding: 0 0 1rem 0;
@@ -441,6 +441,6 @@ button{
     border: none;
     border-radius: 0;
     &:hover{
-        border-bottom: 3px solid $accentColor;
+        border-bottom: 3px solid blue;
     }
 }
