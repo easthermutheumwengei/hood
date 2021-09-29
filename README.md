@@ -55,4 +55,4 @@ None known at the moment.
 In case of clarification email me at esthermutheu99@gmail.com
 
 ### License
-(Copyright (c) 2021 **Easther Mutheu**)[https://github.com/easthermutheumwengei/hood/blob/master/LICENSE]
+[Copyright (c) 2021 **Easther Mutheu**](https://github.com/easthermutheumwengei/hood/blob/master/LICENSE)
