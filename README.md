@@ -34,7 +34,7 @@ A web application that allows users to be in the loop about everything happening
 * Django
 
 ## Application link
-link
+[Link](https://hoodesther.herokuapp.com/)
 ## Prerequisites
 * Python 3.8 required
 * Postgresql
